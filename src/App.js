@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Counter from './components/Counter';
+
 class App extends Component {
   // constructor(props) {
   //   super(props)
@@ -7,14 +8,18 @@ class App extends Component {
   //   this.inc = this.inc.bind(this)
   // }
   // inc() {
+
   // }
   // state = { counterVal: 0, age: 34 }
+
   // inc = () => {
   //   this.setState({ counterVal: this.state.counterVal + 1})
   // }
+
   // dec = () => {
   //   this.setState({ counterVal: this.state.counterVal - 1})
   // }
+
   render() {
     return(
       // <>
@@ -36,4 +41,6 @@ class App extends Component {
     )
   }
 }
+
 export default App;
+
